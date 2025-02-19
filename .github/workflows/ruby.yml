@@ -10,7 +10,7 @@
 name: Ruby
 
 env:
-    SECRETS_TOKEN: ${{ secrets.PAT }}
+    PAT: ${{ secrets.PAT }}
 
 on:
   push:
